@@ -7,9 +7,10 @@ Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli.
 •	Nama nelayan
 •	Jenis kelamin
 
-## GUDANG IKAN
+## Atribut
+GUDANG IKAN
 •	ID Nelayan
 •	 IKAN 
 
-##PEMBELI
+## PEMBELI
 •	Identintas pembeli

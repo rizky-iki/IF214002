@@ -9,14 +9,22 @@ Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli, dengn 
 5. Mencatat riwayat transaksi pembayaran Ikan
 
 ## Entitas dan Atribut
-NELAYAN
-1. ID Nelayan
-2. Nama Nelayan
-3. Jenis Kelamin
+User ( 
+1. ID_user
+2. Email
+3. Password
+4. Nama lengkap
+5. no_telepon
+6. Alamat
 
-GUDANG IKAN
-1. ID Nelayan
+Pemesanan
+1. Id_pemesanan
+2. Id_user
+3. Id_pembayaran
+4. Tanggal
+5. Status
+6. Total harga
+
+Gudang IKAN
+1. Nelayan
 2. IKAN 
-
-PEMBELI
-1. Identitas pembeli

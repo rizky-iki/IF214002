@@ -1,4 +1,6 @@
 # Deskripsi_Proyek
+Ide: IKan Sehar Kuy
+
 Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli.
 
 ## Entitas dan Atribut

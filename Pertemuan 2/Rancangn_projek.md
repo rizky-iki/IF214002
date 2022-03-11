@@ -1,8 +1,8 @@
+# Aplikasi Pengelola Penjualan Dan Pembelian Ikan Berbasis Mobile
+
 # Deskripsi_Proyek
-Ide: IKan Sehar Kuy
-
-Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli.
-
+Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli, dengn pitur-pitur sebagai berikut:
+1. 
 ## Entitas dan Atribut
 NELAYAN
 1. ID Nelayan

@@ -3,7 +3,7 @@ Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli.
 
 ## Entitas
  NELAYAN
-•	ID nelayan
+ 1 ID nelayan
 •	Nama nelayan
 •	Jenis kelamin
 

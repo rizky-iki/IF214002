@@ -14,4 +14,4 @@ GUDANG IKAN
 2. IKAN 
 
 PEMBELI
-1. Identintas pembeli
+1. Identitas pembeli

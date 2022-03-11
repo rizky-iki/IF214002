@@ -2,10 +2,10 @@
 Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli.
 
 ## Entitas
-1. NELAYAN
-2. ID nelayan
-3. Nama nelayan
-4. Jenis kelamin
+NELAYAN
+1. ID Nelayan
+2. Nama Nelayan
+3. Jenis Kelamin
 
 ## Atribut
 GUDANG IKAN

@@ -1,7 +1,7 @@
 # Aplikasi Pengelola Penjualan Dan Pembelian Ikan Berbasis Mobile
 
 # Deskripsi_Proyek
-Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli, dengn pitur-pitur sebagai berikut:
+Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli, dengn Fitur-Fitur sebagai berikut:
 1. 
 ## Entitas dan Atribut
 NELAYAN

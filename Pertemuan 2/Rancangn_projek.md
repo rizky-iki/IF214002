@@ -1,5 +1,7 @@
 # Aplikasi Pengelola Penjualan Dan Pembelian Ikan Berbasis Mobile
 
+
+
 # Deskripsi_Proyek
 Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli, dengn Fitur-Fitur sebagai berikut:
 1. Melakukan pemesanan Ikan 
@@ -33,6 +35,12 @@ Pemesanan
 5. Status
 6. Total harga
 
+Nelayan
+1. Id_nelayan
+2. Nama
+3. Jenis kelamin
+4. Jumlah ikan
+
 Gudang IKAN
-1. Nelayan
-2. IKAN 
+1. Setok Ikan
+2. Jenis ikan

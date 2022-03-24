@@ -9,6 +9,13 @@ Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli, dengn 
 5. Mencatat riwayat transaksi pembayaran Ikan
 
 ## Entitas dan Atribut
+
+Admin
+1. Id_admin
+2. Email
+3. Password
+
+
 User ( 
 1. ID_user
 2. Email
@@ -16,6 +23,7 @@ User (
 4. Nama lengkap
 5. no_telepon
 6. Alamat
+
 
 Pemesanan
 1. Id_pemesanan

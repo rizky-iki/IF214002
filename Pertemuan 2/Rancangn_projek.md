@@ -1,6 +1,6 @@
 # Aplikasi Pengelola Penjualan Dan Pembelian Ikan Berbasis Mobile
 
-
+![ss digram](https://user-images.githubusercontent.com/80630206/159937545-33c4aec6-78c2-4c3d-bab7-61d8667d2fcc.jpeg)
 
 # Deskripsi_Proyek
 Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli, dengn Fitur-Fitur sebagai berikut:

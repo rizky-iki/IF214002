@@ -6,7 +6,7 @@
 
 
 ##USER 
-user
+
 1. id user INT NOY NULL
 2. email CHAR(50) NOT NULL
 3. password CHAR (256) NOT NUL

@@ -1,10 +1,19 @@
+
+
+
+
+![DIGRAM BLOK](https://user-images.githubusercontent.com/80630206/162011383-ac8f8e49-e466-4d67-b0b2-c724faf5755b.jpeg)
+
+
+
 ##Admin
 1. Id_admin
 2. Email
 3. Password
 
 
-##User ( 
+
+User ( 
 1. ID_user
 2. Email
 3. Password
@@ -13,7 +22,7 @@
 6. Alamat
 
 
-##Pemesanan
+Pemesanan
 1. Id_pemesanan
 2. Id_user
 3. Id_pembayaran
@@ -21,12 +30,12 @@
 5. Status
 6. Total harga
 
-##Nelayan
+Nelayan
 1. Id_nelayan
 2. Nama
 3. Jenis kelamin
 4. Jumlah ikan
 
-##Gudang IKAN
+Gudang IKAN
 1. Setok Ikan
 2. Jenis ikan

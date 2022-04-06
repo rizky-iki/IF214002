@@ -1,6 +1,7 @@
 
 
 
+![ss digram](https://user-images.githubusercontent.com/80630206/159937545-33c4aec6-78c2-4c3d-bab7-61d8667d2fcc.jpeg)
 
 ![DIGRAM BLOK](https://user-images.githubusercontent.com/80630206/162011383-ac8f8e49-e466-4d67-b0b2-c724faf5755b.jpeg)
 

@@ -31,8 +31,8 @@ View at [Homepage]
 | pemesanan (1 , N) ----- (1 , 1) detail_pemesanan | Each pemesanan **must** have **one and only one** detail_pemesanan |
 | pemesanan (1 , 1) ----- (0 , 1) pembayaran | Each pemesanan **may be** paid **zero or one** pembayaran |
 | detail_pemesanan (0 , 1) ----- (1 , N) ikan | Each detail_pemesanan **must** have  **one or more** ikan ||
-| ikan (1 , N) ----- (1 , 1) jenis_tiket | Each ikan **must** have **one and only one** jenis_ikan |
-| jenis_jenis ikan (1 , N) ----- (1 , N) objek_wisata | Each jenis_ikan **must** have **one or more** jenis_ikan |
+| ikan (1 , N) ----- (1 , 1) jenis_ikan | Each ikan **must** have **one and only one** jenis_ikan |
+| jenis_jenis ikan (1 , N) ----- (1 , N) jenis ikan | Each jenis_ikan **must** have **one or more** jenis_ikan |
 
 ## Deskripsi
 Aplikasi pembelian ikan segar kuyy adalah sebuah aplikasi yang dirancang untuk memenuhi kebutuhan masyarakat dan restoran yang akan memesanan ikan masuk agar bisa mencukupi kebutuhan masyarakat dan restoran hususnya masyarakat, efektif, dan efisien. saat ketersediaan ikan mulai berkurang, pembelian dan pemesanan ikan dengan cara konvensional menjadi tidak efisien dan efektif karena banyaknya restoran yang langsung membeli ke nelayan sehingga masyarakat tidak dapat kebagian. Dengan demikian, penyelesaian permasalahan ini adalah bagaimana sistem yang baru dapat mengganti sistem yang lama agar tercipta efisiensi biaya.

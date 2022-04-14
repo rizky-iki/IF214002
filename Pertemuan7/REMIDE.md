@@ -37,11 +37,11 @@ Dengan relasi
   
 
   ||Pembelian Tiket|
-    |---|---|
-    |PK|ID|
-    ||Kuantitas|
-    ||Harga Tiket|
-    ||Tanggal|
-    ||Kelembaban|
-    ||Temperatur|
+   |---|---|
+   |PK|ID|
+   ||Kuantitas|
+   ||Harga Tiket|
+   ||Tanggal|
+   ||Kelembaban|
+   ||Temperatur|
 

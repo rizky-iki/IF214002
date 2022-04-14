@@ -15,11 +15,12 @@ contoh data historis terakhir dibaca di suatu aplikasi
  
 
 
-
 ||Karyawan|
 |---|---|
 |PK|ID|
 ||Nama|
+||Alamat|
+||Jabatan|
 ||Gaji Bulanan|
 ||Tanggal Mulai Gaji|
 
@@ -29,15 +30,21 @@ contoh data historis terakhir dibaca di suatu aplikasi
 |PK|ID|
 ||Nama|
 
-||Histori Gaji|
-|---|---|
-|PK|Tanggal Mulai Gaji|
-|PK|ID Karyawan|
-||Gaji Bulanan|
 
-Dengan relasi 
-|Karyawan|1:M|Histori Gaji|
-|---|---|---|
+```sql
+CREATE TABLE
+```
+```python
+print("Quiz Pertemuan 7")
+print("karyawan")
+databaseproducts_ tbl(
+   id_karyawan INT NOT NULL AUTO_INCREMENT,
+   Nama_karyawan VARCHAR(100) NOT NULL,
+   product_manufacturer VARCHAR(40) NOT NULL,
+   submission_date DATE,
+   PRIMARY KEY ( product_id )
+);
+
 
 
 

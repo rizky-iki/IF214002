@@ -26,22 +26,5 @@ Dengan relasi
 |---|---|---|
 
 
-  
-  ||Jadwal Pertandingan|
-  |---|---|
-  |PK|ID|
-  ||Home|
-  ||Away|
-  ||Tanggal|
-  ||Stadion|
-  
 
-  ||Pembelian Tiket|
-   |---|---|
-   |PK|ID|
-   ||Kuantitas|
-   ||Harga Tiket|
-   ||Tanggal|
-   ||Kelembaban|
-   ||Temperatur|
 

@@ -4,7 +4,9 @@
  
  
 ## Pemanfaatan data historis
-- data pemasukan penjualan 
+  - untuk membantu menganalisis/mencari data
+  - untuk membantu mengelompokann data
+  - data pemasukan penjualan 
   - tingkat jumlah pasien dirumah sakit
   - data kesehatan, kemiskinan ,dan jumlah penduduk.
   - presentase pendaftar ke SMA negri 
@@ -25,10 +27,6 @@ contoh data historis terakhir dibaca di suatu aplikasi
 ||Tanggal Mulai Gaji|
 
 
-||Karyawan|
-|---|---|
-|PK|ID|
-||Nama|
 
 
 ```sql

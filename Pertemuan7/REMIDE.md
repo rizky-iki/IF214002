@@ -27,7 +27,8 @@ contoh data historis terakhir dibaca di suatu aplikasi
 ||Tanggal Mulai Gaji|
 
 
-
+```sql
+CREATE TABLE
 
 CREATE TABLE
 

@@ -21,3 +21,11 @@
 
   Model data fisik memungkinkan untuk dikembangkan dari model data logis. Model ini yang digunakan sebagai database. Model data fisik dipakai dalam menentukan metadata struktural dalam sistem manajemen database sebagai objek penyimpanan data yang bersifat relasional, contohnya tabel, indeks dan trigger pada database.
 
+
+
+
+# Diagram
+![DIGRAM BLOK](https://user-images.githubusercontent.com/80630206/162011092-ab3d2073-8552-4950-ae05-e9dacd50d684.jpeg)
+
+# ERD
+![ss digram](https://user-images.githubusercontent.com/80630206/159937545-33c4aec6-78c2-4c3d-bab7-61d8667d2fcc.jpeg)

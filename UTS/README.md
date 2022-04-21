@@ -21,7 +21,8 @@
 
   Model data fisik memungkinkan untuk dikembangkan dari model data logis. Model ini yang digunakan sebagai database. Model data fisik dipakai dalam menentukan metadata struktural dalam sistem manajemen database sebagai objek penyimpanan data yang bersifat relasional, contohnya tabel, indeks dan trigger pada database.
 
-
+# Deskripsi 
+ Bermula dari permasalahan pribadi keinginan untuk membeli ikan, siput dan dll, namun hal tersebut terkendala karena adanya pembeli yang langsung dari restoran membeli semua hasil nelayan sehingga warga dan dan rakyat di sekitar tidak kebagian, hal tersebut membuat saya memiliki ide untuk membuat ikan segar kuyyy, ikan segar kuy adalah gudang hasil tangkapan nelayan yang di mana bisa mencukupi permintaan dari warga dan restoran
 
 
 # Diagram

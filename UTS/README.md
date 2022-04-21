@@ -25,7 +25,7 @@
 
 
 # Diagram
-![DIGRAM BLOK](https://user-images.githubusercontent.com/80630206/162011092-ab3d2073-8552-4950-ae05-e9dacd50d684.jpeg)
+![ss digram](https://user-images.githubusercontent.com/80630206/159937545-33c4aec6-78c2-4c3d-bab7-61d8667d2fcc.jpeg)
 
 # ERD
-![ss digram](https://user-images.githubusercontent.com/80630206/159937545-33c4aec6-78c2-4c3d-bab7-61d8667d2fcc.jpeg)
+![DIGRAM BLOK](https://user-images.githubusercontent.com/80630206/162011092-ab3d2073-8552-4950-ae05-e9dacd50d684.jpeg)

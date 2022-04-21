@@ -19,7 +19,7 @@
   B. Data Fisik
   Model data fisik memungkinkan untuk dikembangkan dari model data logis. Model ini yang digunakan sebagai database. Model data fisik dipakai dalam menentukan metadata struktural dalam sistem manajemen database sebagai objek penyimpanan data yang bersifat relasional, contohnya tabel, indeks dan trigger pada database.
  
-3.  Jelaskan bagaimana cara mentransformasikan proses bisnis sebuah organisasi menjadi struktur data di basis data!
+1. Jelaskan bagaimana cara mentransformasikan proses bisnis sebuah organisasi menjadi struktur data di basis data!. 
 Langkah pertama kita harus memahami dulu proses bisnis dari suatu organisasi itu, sebagai contoh, misalkan kita akan mentrasnformasikan proses bisnis yaitu sistem aplikasi yang mengatur suatu perusahaan. Nah Langkah pertama kita harus menelusuri atau mengumpulkan informasi apa saja bagian atau role dari suatu karyawan, berapa gaji dari karyawan berdasarkan bidangnya dll. Setelah mengetahui alur dari proses bisnis suatu perusahaan tersebut kita bisa merancangnya , Tentukan entitas dan atribut. buat folwchart nya, buat diagram ERD nya. lalu normalisasikan data nya. setelah itu bisa langsung dibuat sqlnya. untuk menghindari kesalahan dalam proses pembuatan suatu aplikasi tersebut.
 
 # Deskripsikan solusi digital tersebut dalam satu paragraf

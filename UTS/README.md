@@ -28,10 +28,11 @@
  - User bisa mencari berbagai menu ikan pada menu search 
  - User bisa menambahkan pemesanan 
 
-# Buat ERD notasi Chen dari struktur data yang mewakili fitur2 di solusi digital tersebut
-![ss digram](https://user-images.githubusercontent.com/80630206/159937545-33c4aec6-78c2-4c3d-bab7-61d8667d2fcc.jpeg)
-
 # Buat ERD notasi Crow Foot dari struktur data logical yang mewakili fitur2 di solusi digital tersebut, lengkap dengan keys, tipe data, dan normalisasi hingga bentuk ke 3
+![ss digram](https://user-images.githubusercontent.com/80630206/159937545-33c4aec6-78c2-4c3d-bab7-61d8667d2fcc.jpeg)
+![DIGRAM BLOK](https://user-images.githubusercontent.com/80630206/162011092-ab3d2073-8552-4950-ae05-e9dacd50d684.jpeg)
+
+
 
 # Tabel Normalisasi
 

@@ -143,4 +143,10 @@ TABLESPACE pg_default;
 |2|888|hiu biru|laut|245|
 |3|789|bandeng|tawar|2000|
 
+![88e9f649-4aa1-41b8-81e2-eec545ea654f](https://user-images.githubusercontent.com/80630206/164591844-793eff4f-8547-43e3-8196-4bb1f14a2a96.jpg)
+![5b4ef358-9617-4f10-b360-7fb6dcf0e0a0](https://user-images.githubusercontent.com/80630206/164591848-dc979a47-d94c-4e21-b3c6-52dadd8a8e2f.jpg)
+![6e0fe6ad-fbba-425c-96fa-9680dfb5cec4](https://user-images.githubusercontent.com/80630206/164591860-d51752b3-e79f-46bf-a933-79992112479
+![cf78e869-7154-4791-852b-4d9ae897045a](https://user-images.githubusercontent.com/80630206/164591869-2edf12f0-b2f0-4b98-b68a-fc37ab8d498b.jpg)
+8.jpg)
+![847e4533-cff5-4dfc-820f-1d8c49317d7e](https://user-images.githubusercontent.com/80630206/164591873-e0fbd47c-00c1-4553-b0d4-521746679cf5.jpg)
 

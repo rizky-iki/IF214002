@@ -86,6 +86,26 @@
 #### A. Berdasarkan ERD yang telah dibuat, buatlah implementasi basis data dari ERD tersebut dalam bentuk tabel basis data lengkap dengan Primary Key, Foreign Key dengan menggunakan perintah CREATE TABLE bahasa SQL. Anda dapat menggunakan vendor basis data yang Anda sukai (MySQL / PostgreSQL / SQL Server / dsb.). Jika belum sempat install basis data di laptop, bisa menggunakan sqliteonline.com untuk mengecek keberhasilan pembuatan tabelnya.
 
 
+
+##  Rancang solusi digital dari satu permasalahan yang ada di sekitar Anda
+Aplikasi ikan segar kuyy
+![DIGRAM BLOK](https://user-images.githubusercontent.com/80630206/162011092-ab3d2073-8552-4950-ae05-e9dacd50d684.jpeg)
+
+
+
+CREATE TABLE public."Admin"
+(
+    id_admin integer NOT NULL,
+    nama_admin character(30) COLLATE pg_catalog."default" NOT NULL,
+    pass_admin character(16) COLLATE pg_catalog."default" NOT NULL,
+    email_admin character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    nomor_hp_admin integer NOT NULL,
+    CONSTRAINT "Admin_pkey" PRIMARY KEY (id_admin) 
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
 ## Tabel Normalisasi
 
 #### Tabel Admin

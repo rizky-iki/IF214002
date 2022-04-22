@@ -6,15 +6,7 @@
 ### Sintaks
 |SELECT kolom1, kolom2, ... FROM nama_tabel;|
 |---|
-### atau
-|SELECT * FROM nama_tabel;|
-|---|
-### Contoh
-|SELECT nis, nama, alamat FROM siswa;|
-|---|
-### atau
-|SELECT * FROM siswa;|
-|---|
+
 ### Perintah pertama di atas di gunakan untuk menyeleksi kolom NIS, NAMA, dan ALAMAT dari tabel SISWA. sedangkan perintah kedua di gunakan untuk menyeleksi semua kolim dari tabel SISWA.
 
 ## 1.2. Perintah SELECT DISTINCT

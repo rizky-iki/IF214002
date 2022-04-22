@@ -4,8 +4,8 @@
 ### Perintah SELECT merupakan perintah dasar SQL yang di gunakan untuk memilih data dari database. Data yang di kembalikan di simpan dalam tabel yang di sebut result-set.
 
 ### Sintaks
-|SELECT kolom1, kolom2, ... FROM nama_tabel;|
-|---|
+SELECT kolom1, kolom2, ... FROM nama_tabel;
+
 ### atau
 |SELECT * FROM nama_tabel;|
 |---|

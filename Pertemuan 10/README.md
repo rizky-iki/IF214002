@@ -174,3 +174,8 @@ Create
 
 ## Switch back to the mysqld_safe terminal and kill the process using Control + \
 $ /etc/init.d/mysql start
+
+- Query untuk mencari penduduk berusia diatas 25 tahun yang berada di kabupaten 3204
+```sql
+SELECT * FROM penduduk WHERE TIMESTAMPDIFF(YEAR, tanggal_lahir, now()) > 25 AND kode_kabupaten = '3204'
+```

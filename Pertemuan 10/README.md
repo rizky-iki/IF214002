@@ -6,4 +6,3 @@ CREATE TABLE [IF NOT EXISTS] table_name (
   column2 datatype (length) column_contraint,
 table_constraints
 );
-

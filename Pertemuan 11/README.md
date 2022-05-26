@@ -9,7 +9,6 @@ CREATE TABLE user (
   alamat varchar(256) NOT NULL,
 );
 
-
 CREATE TABLE pemesanan (
   id_pemesanan int(8) NOT NULL,
   id_user int(8) NOT NULL,
@@ -26,7 +25,6 @@ CREATE TABLE detail_pemesanan (
   jumlah_ikan int(8) NOT NULL,
   total_harga int(8) NOT NULL
 );
-
 
 CREATE TABLE pembayaran (
   id_pembayaran int(8) NOT NULL,

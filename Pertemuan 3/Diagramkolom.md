@@ -32,7 +32,7 @@ Detail pemesanan
 Pembayaran
 1. id pembayaran INT NOT NULL
 2. kode pembayaran CHAR(24) NOT NULL 
-3. ama_pembayar CHAR(24) NOT NULL
+3. nama_pembayar CHAR(24) NOT NULL
 4. jenis pembayaran CHAR(24) NOT NULL
 
 jenis

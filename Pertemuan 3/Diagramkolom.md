@@ -24,10 +24,9 @@
 Detail pemesanan
 1. id detail pem INT NOT NULL
 2. id_pemesanan INT NOT NULL
-3. id_loket INT NOT NULL
-4. jenis ikan INT NOT NULL
-5. jumlah INT
-6. tota__harga INT
+3. jenis ikan INT NOT NULL
+4. jumlah INT
+5. tota__harga INT
 
 
 Pembayaran

@@ -15,7 +15,7 @@ CREATE TABLE `detail_pemesanan` (
   `id_produsen` varchar(12) NOT NULL
   );
   
-  CREATE TABLE `ikan` (
+CREATE TABLE `ikan` (
   `id_ikan` varchar(12) NOT NULL,
   `harga_ikan` int(11) NOT NULL,
   `nama_ikan` varchar(50) NOT NULL,
@@ -30,13 +30,13 @@ CREATE TABLE `pembayaran` (
   `id_user` int(11) NOT NULL
   );
   
- CREATE TABLE `pemesanan` (
+CREATE TABLE `pemesanan` (
   `id_pemesanan` varchar(12) NOT NULL,
   `status` enum('transfer','cash') NOT NULL,
   `id_user` int(11) NOT NULL
   );
   
-  CREATE TABLE `produsen` (
+CREATE TABLE `produsen` (
   `id_produsen` varchar(12) NOT NULL,
   `nama_produsen` varchar(50) NOT NULL,
   `jenis_produsen` varchar(50) NOT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE `pembayaran` (
   `id_ikan` varchar(12) NOT NULL
   );
   
-  CREATE TABLE `user` (
+CREATE TABLE `user` (
   `id_user` int(11) NOT NULL,
   `email` varchar(40) NOT NULL,
   `password` varchar(26) NOT NULL,
@@ -54,43 +54,43 @@ CREATE TABLE `pembayaran` (
   );
   
   
-  ALTER TABLE `detail_pemesanan`
+ALTER TABLE `detail_pemesanan`
   ADD PRIMARY KEY (`id_detail_pem`),
   ADD UNIQUE KEY `id_pemesanan` (`id_pemesanan`),
   ADD UNIQUE KEY `id_ikan` (`id_ikan`),
   ADD UNIQUE KEY `id_produsen` (`id_produsen`);
   
   
-  ALTER TABLE `ikan`
+ALTER TABLE `ikan`
   ADD PRIMARY KEY (`id_ikan`);
   
-  ALTER TABLE `pembayaran`
+ALTER TABLE `pembayaran`
   ADD PRIMARY KEY (`id_pembayaran`),
   ADD UNIQUE KEY `id_user` (`id_user`);
   
-  ALTER TABLE `pemesanan`
+ALTER TABLE `pemesanan`
   ADD PRIMARY KEY (`id_pemesanan`),
   ADD UNIQUE KEY `id_user` (`id_user`);
   
-  ALTER TABLE `produsen`
+ALTER TABLE `produsen`
   ADD PRIMARY KEY (`id_produsen`),
   ADD UNIQUE KEY `id_ikan` (`id_ikan`);
   
-  ALTER TABLE `user`
+ALTER TABLE `user`
   ADD PRIMARY KEY (`id_user`);
   
-  ALTER TABLE `detail_pemesanan`
+ALTER TABLE `detail_pemesanan`
   ADD CONSTRAINT `detail_pemesanan_ibfk_1` FOREIGN KEY (`id_pemesanan`) REFERENCES `pemesanan` (`id_pemesanan`),
   ADD CONSTRAINT `detail_pemesanan_ibfk_2` FOREIGN KEY (`id_ikan`) REFERENCES `ikan` (`id_ikan`),
   ADD CONSTRAINT `detail_pemesanan_ibfk_3` FOREIGN KEY (`id_produsen`) REFERENCES `produsen` (`id_produsen`);
   
-  ALTER TABLE `pembayaran`
+ALTER TABLE `pembayaran`
   ADD CONSTRAINT `pembayaran_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `user` (`id_user`);
   
-  ALTER TABLE `pemesanan`
+ALTER TABLE `pemesanan`
   ADD CONSTRAINT `pemesanan_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `user` (`id_user`);
   
-  ALTER TABLE `produsen`
+ALTER TABLE `produsen`
   ADD CONSTRAINT `produsen_ibfk_1` FOREIGN KEY (`id_ikan`) REFERENCES `ikan` (`id_ikan`);
 COMMIT;
 

@@ -129,3 +129,34 @@ INSERT INTO `user` (`id_user`, `email`, `password`, `nama_lengkap`, `no_telepon`
 ## DQL
 
 ``` sql
+
+/* menampilkan data pada tabel warga*/
+
+SELECT * FROM `warga`;
+
+/* menampilkan jumlah role atau jabatan yang ada pada seluruh sistem database */
+
+SELECT COUNT(*) AS jumlah_role FROM `role`;
+
+/* menampilkan warga berusia dibawah 25 tahun untuk seleksi karang taruna */
+
+SELECT `nama_warga`, `nik_warga`, `tanggal_lahir`, `status_keaktifan`, TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) AS usia_warga, 
+CASE 
+	WHEN TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) < 25 THEN 'Remaja'
+	WHEN TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) < 50 AND TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) > 24 THEN 'Dewasa'
+	WHEN TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) > 50 THEN 'Lansia'
+END AS kategori_usia
+FROM `warga`
+ORDER BY usia_warga ASC;
+
+/* menampilkan detail dari lokasi seluruh data kk dengan join */
+
+SELECT `id_kk`, `jumlah_anggota_keluarga`, `nama_rt`, `nama_rw`, `nama_keldes`, `nama_kecamatan`, `nama_kota`, `nama_provinsi` 
+FROM `kk`
+JOIN `rt` ON `kk`.`id_rt` = `rt`.`id_rt` 
+JOIN `rw` ON `kk`.`id_rw` = `rw`.`id_rw`
+JOIN `keldes` ON `kk`.`id_keldes` = `keldes`.`id_keldes`
+JOIN `kecamatan` ON `kk`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+JOIN `kota` ON `kk`.`id_kota` = `kota`.`id_kota`;
+
+```

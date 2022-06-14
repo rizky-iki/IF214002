@@ -3,7 +3,7 @@
 
 ![DIGRAM BLOK](https://user-images.githubusercontent.com/80630206/162011383-ac8f8e49-e466-4d67-b0b2-c724faf5755b.jpeg)
 
-
+![WhatsApp Image 2022-06-14 at 16 55 30](https://user-images.githubusercontent.com/80630206/173550428-155dea8a-3f74-4c7b-830b-cd748281749e.jpeg)
 
 ##USER 
 

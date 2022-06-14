@@ -54,3 +54,43 @@ CREATE TABLE `pembayaran` (
   );
   
   
+  ALTER TABLE `detail_pemesanan`
+  ADD PRIMARY KEY (`id_detail_pem`),
+  ADD UNIQUE KEY `id_pemesanan` (`id_pemesanan`),
+  ADD UNIQUE KEY `id_ikan` (`id_ikan`),
+  ADD UNIQUE KEY `id_produsen` (`id_produsen`);
+  
+  
+  ALTER TABLE `ikan`
+  ADD PRIMARY KEY (`id_ikan`);
+  
+  ALTER TABLE `pembayaran`
+  ADD PRIMARY KEY (`id_pembayaran`),
+  ADD UNIQUE KEY `id_user` (`id_user`);
+  
+  ALTER TABLE `pemesanan`
+  ADD PRIMARY KEY (`id_pemesanan`),
+  ADD UNIQUE KEY `id_user` (`id_user`);
+  
+  ALTER TABLE `produsen`
+  ADD PRIMARY KEY (`id_produsen`),
+  ADD UNIQUE KEY `id_ikan` (`id_ikan`);
+  
+  ALTER TABLE `user`
+  ADD PRIMARY KEY (`id_user`);
+  
+  ALTER TABLE `detail_pemesanan`
+  ADD CONSTRAINT `detail_pemesanan_ibfk_1` FOREIGN KEY (`id_pemesanan`) REFERENCES `pemesanan` (`id_pemesanan`),
+  ADD CONSTRAINT `detail_pemesanan_ibfk_2` FOREIGN KEY (`id_ikan`) REFERENCES `ikan` (`id_ikan`),
+  ADD CONSTRAINT `detail_pemesanan_ibfk_3` FOREIGN KEY (`id_produsen`) REFERENCES `produsen` (`id_produsen`);
+  
+  ALTER TABLE `pembayaran`
+  ADD CONSTRAINT `pembayaran_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `user` (`id_user`);
+  
+  ALTER TABLE `pemesanan`
+  ADD CONSTRAINT `pemesanan_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `user` (`id_user`);
+  
+  ALTER TABLE `produsen`
+  ADD CONSTRAINT `produsen_ibfk_1` FOREIGN KEY (`id_ikan`) REFERENCES `ikan` (`id_ikan`);
+COMMIT;
+

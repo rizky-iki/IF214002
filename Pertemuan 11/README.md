@@ -94,3 +94,38 @@ ALTER TABLE `produsen`
   ADD CONSTRAINT `produsen_ibfk_1` FOREIGN KEY (`id_ikan`) REFERENCES `ikan` (`id_ikan`);
 COMMIT;
 
+
+  ```
+ 
+## DML
+
+``` sql
+
+INSERT INTO `detail_pemesanan` (`id_detail_pem`, `id_pemesanan`, `jenis_ikan`, `jumlah`, `total_harga`, `id_ikan`, `id_produsen`) VALUES
+('f112t', 't456y', 'tawar', 11, 56000, 'b123f', '112233');
+
+INSERT INTO `ikan` (`id_ikan`, `harga_ikan`, `nama_ikan`, `jenis_ikan`) VALUES
+('b123f', 12000, 'bandeng', 'laut'),
+('c234t', 7000, 'mujair', 'tawar');
+
+INSERT INTO `pembayaran` (`id_pembayaran`, `kode_pembayaran`, `nama_pembayar`, `jenis_pembayaran`, `id_user`) VALUES
+('123456', '223344', 'udin', 'cash', 567352),
+('76543', '23456', 'iki', 'transfer', 456122);
+
+INSERT INTO `pemesanan` (`id_pemesanan`, `status`, `id_user`) VALUES
+('r365u', 'cash', 567352),
+('t456y', 'transfer', 456122);
+
+INSERT INTO `produsen` (`id_produsen`, `nama_produsen`, `jenis_produsen`, `stok_ikan`, `id_ikan`) VALUES
+('112233', 'ikiii', 'prusahaan', 1234, 'b123f'),
+('123456', 'udin', 'perseorangan', 1235, 'c234t');
+
+INSERT INTO `user` (`id_user`, `email`, `password`, `nama_lengkap`, `no_telepon`, `alamat`) VALUES
+(456122, 'iki34@gmail.com', '123ikan', 'udin', '089746346463', 'jl.kampung seni, blok B, komplek BCI, kec.cilenyi, kab.bandung'),
+(567352, 'udin345@gmail.com', 'katakanudin', 'ikbal', '089655762344', 'jl.kampung seni, blok B, komplek BCI, kec.cilenyi, kab.bandung');
+
+ ```
+
+## DQL
+
+``` sql

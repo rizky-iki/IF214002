@@ -15,14 +15,6 @@ Aplikasi pembelian ikan segar kuyy adalah sebuah aplikasi yang dirancang untuk m
 - Menampilkan jumlah ikan yang terjual dan hasil penjualan ikan kemudian direkap setiap akhir bulan.
 
 
-## Entitas dan Atribut
-
-# Aplikasi Pengelola Penjualan Dan Pembelian Ikan Berbasis Mobile
-
-
-![DIGRAM BLOK](https://user-images.githubusercontent.com/80630206/162011383-ac8f8e49-e466-4d67-b0b2-c724faf5755b.jpeg)
-
-
 # Deskripsi_Proyek
 Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli, dengn Fitur-Fitur sebagai berikut:
 1. Melakukan pemesanan Ikan 

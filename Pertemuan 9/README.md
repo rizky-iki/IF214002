@@ -2,6 +2,7 @@
 
 
 ![DIGRAM BLOK](https://user-images.githubusercontent.com/80630206/162011383-ac8f8e49-e466-4d67-b0b2-c724faf5755b.jpeg)
+![WhatsApp Image 2022-06-14 at 16 55 30](https://user-images.githubusercontent.com/80630206/175078264-de43c9ad-29d4-49b2-9447-2d7095a83be8.jpeg)
 
 
 ## Deskripsi

@@ -14,7 +14,7 @@
 |79869006|iwan|bantarujeg|087588576347|iwan678@gmail.com|876413|
 
 #### Tabel Pemesanan
-|🔑id_pemesanan|id_user|id_pembayaran|tanggal|status|total_harga|
+|🔑id_pemesanan|id_user|id_pembayaran|tanggal|total_harga|
 |---|---|---|---|---|---|
 |67888|98765322|6782|12 januari 2022|150.000|
 |56788|96789568|5678|3 mei 2022|1000.000|

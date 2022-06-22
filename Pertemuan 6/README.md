@@ -29,8 +29,8 @@
 
 
 #### Tabel gudang
-🔑|id_ikan|nama|jenis_ikan|stok ikan|
-|---|---|---|---|
+|🔑id_ikan|nama|jenis_ikan|stok ikan|
+|---|---|---|---|---|
 |1|678|paus|laut|78|
 |2|888|hiu biru|laut|245|
 |3|789|bandeng|tawar|2000|

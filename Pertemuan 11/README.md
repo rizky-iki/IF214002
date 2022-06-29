@@ -188,6 +188,7 @@ INSERT INTO public.detail_pemesanan (id_detail_pem,id_pemesanan,jumlah,total_har
 ## DQL
 
 ``` sql
+SELECT ikan.nama_ikan, ikan.harga_ikan, produsen.stok_ikan from ikan inner join produsen on ikan.id_ikan = produsen.id_ikan order by ikan.nama_ikan;
 
 
 

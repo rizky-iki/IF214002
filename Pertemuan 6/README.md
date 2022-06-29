@@ -1,37 +1,19 @@
 ## Tabel Normalisasi
 
-#### Tabel Admin
-|🔑id_admin|pass_admin|Email_admin|
-|---|---|---|
-|5320331|123cobaan|muhammadsantoso134@gmail.com|
-|7629576|jalanwetan|iki45@gmail.com|
+#### detail_pemesanan
+![Screenshot (720)](https://user-images.githubusercontent.com/80630206/176462932-24a318ea-c887-47ba-9e9e-f720496c2cd4.png)
 
-#### Tabel user
-|🔑id_user|nama_lengkap|alamat|no_telepon|email|password|
-|---|---|---|---|---|---|
-|98765322|iman balok|banyusari|083426276367|iman123@gmail.com|456789|
-|96789568|sandi|malausma|098765875667|sandi031@gmail.com|786457|
-|79869006|iwan|bantarujeg|087588576347|iwan678@gmail.com|876413|
+#### ikan
+![Screenshot (721)](https://user-images.githubusercontent.com/80630206/176463082-ef5bd3c9-1c4f-46b4-99f3-4242b20f8388.png)
 
-#### Tabel Pemesanan
-|🔑id_pemesanan|id_user|id_pembayaran|tanggal|total_harga|
-|---|---|---|---|---|
-|67888|98765322|6782|12 januari 2022|150.000|
-|56788|96789568|5678|3 mei 2022|1000.000|
-|45674|79869006|2461|6 juli 2022|68.000|
+#### pembayaran
+![Screenshot (722)](https://user-images.githubusercontent.com/80630206/176463117-a55cfe80-8f57-413f-bf1d-0e6f24a5b272.png)
 
-#### Tabel nelayan
-|🔑id_nelayan|nama_nelayan|jenis_kelamin|jenis_ikan|
-|---|---|---|---|
-|567|ucup|laki-laki|paus|
-|777|ma ijah|perempuan|hiu buru|
-|786|jajang|laki-laki|bandeng|
+#### pemesanan
+![Screenshot (723)](https://user-images.githubusercontent.com/80630206/176463182-4ef2d504-e3cb-48fc-a763-e2340b243b55.png)
 
+#### produsen
+![Screenshot (724)](https://user-images.githubusercontent.com/80630206/176463265-24bdf5e7-e5c2-4596-925b-32175662bc3a.png)
 
-#### Tabel gudang
-|🔑id_ikan|nama|jenis_ikan|stok ikan|
-|---|---|---|---|
-|678|paus|laut|78|
-|888|hiu biru|laut|245|
-|789|bandeng|tawar|2000|
-
+#### user
+![Screenshot (725)](https://user-images.githubusercontent.com/80630206/176463305-97e691f1-ae04-48e1-aa9a-822739f4ebe0.png)

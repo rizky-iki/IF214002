@@ -100,29 +100,88 @@ COMMIT;
 ## DML
 
 ``` sql
+INSERT INTO public.users (id_user,email,"password",nama_lengkap,no_telepon,alamat) VALUES
+	 ('456122','iki34@gmail.com','123ikan','udin','089746346463','jl.kampung seni, blok B, komplek BCI, kec.cilenyi, kab.bandung'),
+	 ('567352','udin345@gmail.com','katakanudin','ikbal','089655762344','jl.kampung seni, blok B, komplek BCI, kec.cilenyi, kab.bandung');
+INSERT INTO public.produsen (id_produsen,nama_produsen,jenis_produsen,stok_ikan,id_ikan) VALUES
+	 ('112233','ikiii','prusahaan',1234,'b123f'),
+	 ('123456','udin','perseorangan',1235,'c234t'),
+	 ('1','nurkholis','perorangan',3000,'1'),
+	 ('2','rijki','perorangan',5000,'2'),
+	 ('3','jeki','perorangan',6000,'3'),
+	 ('4','ehan','perorangan',7000,'4'),
+	 ('5','oman','restoran',4000,'5'),
+	 ('6','si bos','restoran',1000,'6'),
+	 ('7','nugraha','restoran',2000,'7'),
+	 ('8','norma','restoran',3000,'8');
+INSERT INTO public.produsen (id_produsen,nama_produsen,jenis_produsen,stok_ikan,id_ikan) VALUES
+	 ('9','rijal','restoran',4000,'9'),
+	 ('10','rizzik','restoran',4000,'10'),
+	 ('11','salman','perorangan',4000,'11'),
+	 ('12','rama','perorangan',4000,'12'),
+	 ('13','siti','perorangan',4000,'13'),
+	 ('14','juve','perorangan',6000,'14'),
+	 ('15','kamui','restoran',6000,'15'),
+	 ('16','samui','restoran',6000,'16');
+INSERT INTO public.pemesanan (id_pemesanan,status,id_user) VALUES
+	 ('r365u','lunas','567352'),
+	 ('t456y','belum lunas','456122'),
+	 ('1','lunas','1'),
+	 ('2','lunas','2'),
+	 ('3','lunas','2'),
+	 ('4','belum lunas','2'),
+	 ('5','belum lunas','3'),
+	 ('6','belum lunas','4'),
+	 ('7','belum lunas','5'),
+	 ('8','belum lunas','6');
+INSERT INTO public.pemesanan (id_pemesanan,status,id_user) VALUES
+	 ('9','belum lunas','7'),
+	 ('10','belum lunas','8'),
+	 ('11','belum lunas','9'),
+	 ('12','belum lunas','10'),
+	 ('13','lunas','10'),
+	 ('14','lunas','10'),
+	 ('15','belum lunas','10'),
+	 ('16','lunas','11');
+INSERT INTO public.pembayaran (id_pembayaran,kode_pembayaran,nama_pembayar,"jenis_pembayaran",id_user) VALUES
+	 ('1','1','udin','cash','456122');
+INSERT INTO public.ikan (id_ikan,harga_ikan,nama_ikan) VALUES
+	 ('1',10000,'koi'),
+	 ('2',10000,'ikan koi'),
+	 ('3',10000,'ikan bandeng'),
+	 ('4',20000,'ikan lele'),
+	 ('5',30000,'ikan mas'),
+	 ('6',50000,'ikan paus'),
+	 ('7',40000,'ikan gurame'),
+	 ('8',40000,'ikan jaer'),
+	 ('9',40000,'ikan sepat'),
+	 ('10',40000,'ikan benter');
+INSERT INTO public.ikan (id_ikan,harga_ikan,nama_ikan) VALUES
+	 ('11',40000,'ikan cingok'),
+	 ('12',40000,'ikan gabus'),
+	 ('13',30000,'ikan hiu'),
+	 ('14',60000,'ikan bawal'),
+	 ('15',60000,'ikan tenggiri'),
+	 ('16',60000,'ikan salmon');
+INSERT INTO public.detail_pemesanan (id_detail_pem,id_pemesanan,jumlah,total_harga,id_ikan,id_produsen) VALUES
+	 ('1','1',1000,10000,'1','1'),
+	 ('2','2',1000,20000,'2','2'),
+	 ('3','3',2000,10000,'3','3'),
+	 ('4','4',3000,30000,'4','4'),
+	 ('5','5',2000,10000,'5','5'),
+	 ('6','6',2000,10000,'6','6'),
+	 ('7','7',1000,30000,'7','7'),
+	 ('8','8',1000,20000,'8','8'),
+	 ('9','9',6000,30000,'9','9'),
+	 ('10','10',7000,40000,'10','10');
+INSERT INTO public.detail_pemesanan (id_detail_pem,id_pemesanan,jumlah,total_harga,id_ikan,id_produsen) VALUES
+	 ('11','11',5000,80000,'11','11'),
+	 ('12','12',3000,60000,'12','12'),
+	 ('13','13',2000,70000,'13','13'),
+	 ('14','14',8000,30000,'14','14'),
+	 ('15','15',8000,90000,'15','15'),
+	 ('16','16',3000,90000,'16','16');
 
-INSERT INTO `detail_pemesanan` (`id_detail_pem`, `id_pemesanan`, `jenis_ikan`, `jumlah`, `total_harga`, `id_ikan`, `id_produsen`) VALUES
-('f112t', 't456y', 'tawar', 11, 56000, 'b123f', '112233');
-
-INSERT INTO `ikan` (`id_ikan`, `harga_ikan`, `nama_ikan`, `jenis_ikan`) VALUES
-('b123f', 12000, 'bandeng', 'laut'),
-('c234t', 7000, 'mujair', 'tawar');
-
-INSERT INTO `pembayaran` (`id_pembayaran`, `kode_pembayaran`, `nama_pembayar`, `jenis_pembayaran`, `id_user`) VALUES
-('123456', '223344', 'udin', 'cash', 567352),
-('76543', '23456', 'iki', 'transfer', 456122);
-
-INSERT INTO `pemesanan` (`id_pemesanan`, `status`, `id_user`) VALUES
-('r365u', 'cash', 567352),
-('t456y', 'transfer', 456122);
-
-INSERT INTO `produsen` (`id_produsen`, `nama_produsen`, `jenis_produsen`, `stok_ikan`, `id_ikan`) VALUES
-('112233', 'ikiii', 'prusahaan', 1234, 'b123f'),
-('123456', 'udin', 'perseorangan', 1235, 'c234t');
-
-INSERT INTO `user` (`id_user`, `email`, `password`, `nama_lengkap`, `no_telepon`, `alamat`) VALUES
-(456122, 'iki34@gmail.com', '123ikan', 'udin', '089746346463', 'jl.kampung seni, blok B, komplek BCI, kec.cilenyi, kab.bandung'),
-(567352, 'udin345@gmail.com', 'katakanudin', 'ikbal', '089655762344', 'jl.kampung seni, blok B, komplek BCI, kec.cilenyi, kab.bandung');
 
  ```
 
@@ -130,33 +189,6 @@ INSERT INTO `user` (`id_user`, `email`, `password`, `nama_lengkap`, `no_telepon`
 
 ``` sql
 
-/* menampilkan data pada tabel warga*/
 
-SELECT * FROM `warga`;
-
-/* menampilkan jumlah role atau jabatan yang ada pada seluruh sistem database */
-
-SELECT COUNT(*) AS jumlah_role FROM `role`;
-
-/* menampilkan warga berusia dibawah 25 tahun untuk seleksi karang taruna */
-
-SELECT `nama_warga`, `nik_warga`, `tanggal_lahir`, `status_keaktifan`, TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) AS usia_warga, 
-CASE 
-	WHEN TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) < 25 THEN 'Remaja'
-	WHEN TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) < 50 AND TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) > 24 THEN 'Dewasa'
-	WHEN TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) > 50 THEN 'Lansia'
-END AS kategori_usia
-FROM `warga`
-ORDER BY usia_warga ASC;
-
-/* menampilkan detail dari lokasi seluruh data kk dengan join */
-
-SELECT `id_kk`, `jumlah_anggota_keluarga`, `nama_rt`, `nama_rw`, `nama_keldes`, `nama_kecamatan`, `nama_kota`, `nama_provinsi` 
-FROM `kk`
-JOIN `rt` ON `kk`.`id_rt` = `rt`.`id_rt` 
-JOIN `rw` ON `kk`.`id_rw` = `rw`.`id_rw`
-JOIN `keldes` ON `kk`.`id_keldes` = `keldes`.`id_keldes`
-JOIN `kecamatan` ON `kk`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
-JOIN `kota` ON `kk`.`id_kota` = `kota`.`id_kota`;
 
 ```

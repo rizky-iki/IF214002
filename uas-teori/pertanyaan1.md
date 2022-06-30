@@ -316,3 +316,4 @@ SELECT ikan.nama_ikan, ikan.harga_ikan, produsen.stok_ikan from ikan inner join 
 
 ```
 
+

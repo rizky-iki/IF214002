@@ -1,3 +1,10 @@
+# Aplikasi Pengelola Penjualan Dan Pembelian Ikan Berbasis Mobile
+
+
+![ikan_skyy](https://user-images.githubusercontent.com/80630206/176457126-097af456-ab27-4d2f-a9d1-b31532348a95.png)
+
+
+
 # Deskripsi_Proyek
 Aplikasi ini di buat untuk mempermudahkan para nelayang dan para membeli, dengn Fitur-Fitur sebagai berikut:
 1. Melakukan pemesanan Ikan 
